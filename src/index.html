@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<head>
+  <title>
+    Daniel Scrivner - Entrepreneur. Investor. Host of Outliers with Daniel
+    Scrivner.
+  </title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+    crossorigin="anonymous"
+  />
+  <!-- Bootstrap Font Icon CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+  />
+  <!-- Slick CSS -->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+  />
+  <link rel="stylesheet" type="text/css" href="../assets/css/index.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <!-- navbar -->
+    <div class="nav-menu d-none d-lg-block">
+      <div class="menu-grid-1 flex-column flex-lg-row text-center">
+        <a href="#" class="menu-link-1 w-100 w-lg-25">Podcast</a>
+        <a href="#" class="menu-link-1 w-100 w-lg-25">Newsletter</a>
+        <a href="#" class="menu-link-1 w-100 w-lg-25">Topics & Tags</a>
+        <a class="menu-link-1 w-100 d-block d-md-none" href="#">About</a>
+        <a class="menu-link-1 w-100 d-block d-md-none" href="#">Newsroom</a>
+        <a class="menu-link-1 w-100 d-block d-md-none" href="#">Contact</a>
+        <div
+          class="menu-link-1 w-100 d-block d-md-none"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#subscribeModal"
+        >
+          <button
+            class="btn text-white w-100"
+            style="background-color: #262626; font-size: 14px"
+          >
+            Subscribe
+          </button>
+        </div>
+        <div class="dropdown w-100 w-lg-25 d-none d-lg-block">
+          <a
+            class="menu-link-1"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            More
+          </a>
+          <div class="dropdown-menu dropdown-1">
+            <a class="dropdown-item text-white" href="#">About</a>
+            <a class="dropdown-item text-white" href="#">Newsroom</a>
+            <a class="dropdown-item text-white" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-bar" id="navbar">
+      <div class="nav-wrp-1 d-lg-none">
+        <div class="nav-wrp-2">
+          <div
+            class="hamburger-main"
+            type="button"
+            role="button"
+            id="btn-toggle"
+          >
+            <div class="ham-line-1"></div>
+            <div class="ham-line-2"></div>
+            <div class="ham-line-3"></div>
+          </div>
+        </div>
+        <a href="#" class="home-link-1"
+          ><img src="../assets/logo/denis.png" alt="denis"
+        /></a>
+        <div class="nav-wrp-3" type="button">
+          <div
+            class="search-link-1 text-center"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#searchModal"
+          >
+            <i class="bi-search" style="font-size: 12px; color: white"></i>
+          </div>
+        </div>
+      </div>
+      <div class="nav-wrp-1">
+        <div class="nav-wrp-2">
+          <div
+            class="search-link-1 text-center"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#searchModal"
+          >
+            <i class="bi-search" style="font-size: 12px; color: white"></i>
+          </div>
+        </div>
+        <a href="#" class="home-link-1"
+          ><img src="../assets/logo/denis.png" alt="denis"
+        /></a>
+        <div
+          class="nav-wrp-3"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#subscribeModal"
+        >
+          <button
+            class="btn text-white"
+            style="background-color: #262626; font-size: 14px"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- end navbar -->
+
+    <!-- content -->
+    <div class="container mt-5 mt-lg-0">
+      <div class="row flex-column-reverse flex-lg-row justify-content-between">
+        <div
+          class="col-md-6 text-center text-xl-start mt-5"
+          style="max-width: 500px"
+        >
+          <div class="center">
+            <h1 class="hero-hd-1">Timeless insights for business and life.</h1>
+            <p class="hero-para-1">
+              Every week, I sit down with someone in the Top 1% of their field —
+              from NYT bestselling authors to Oscar winners — to decode what
+              they've mastered. Listen as I uncover the tactics, routines, and
+              habits that will propel you to the top of your field. <br />
+            </p>
+            <div class="card mb-2 card-1">
+              <div class="row g-0" style="background-color: #141414">
+                <div class="col-md-4" style="align-self: center; padding: 10px">
+                  <img
+                    src="https://assets-global.website-files.com/5f4f71d4aeab4787c7926d10/62cc70a94fe9f26f25380827_Steve-Vassallo_Thumbnail.jpg"
+                    class="img-fluid rounded-start hero-card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">Latest Episode</h5>
+                    <p class="card-text">
+                      #123 Steve Vassallo of Foundation Capital: My Favorite
+                      Books, Tools, Habits and More | 20 Minute Playbook
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5 mt-lg-0 w-btn-1">
+              <div class="col-12 m-1 col-md-5 col-lg-5 m-lg-0">
+                <button type="button" class="btn w-btn-2">Start Here</button>
+              </div>
+              <div class="col-12 m-1 col-md-7 col-lg-7 m-lg-0">
+                <button type="button" class="btn w-btn-2">
+                  Listen to the podcast
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <img
+            src="https://assets-global.website-files.com/5f46baf9863467a01b1aaab9/5f479acca51c91168e689008_card-portrait-tiny-p-800.png"
+            alt
+            srcset="
+              https://assets-global.website-files.com/5f46baf9863467a01b1aaab9/5f479acca51c91168e689008_card-portrait-tiny-p-500.png  500w,
+              https://assets-global.website-files.com/5f46baf9863467a01b1aaab9/5f479acca51c91168e689008_card-portrait-tiny-p-800.png  800w,
+              https://assets-global.website-files.com/5f46baf9863467a01b1aaab9/5f479acca51c91168e689008_card-portrait-tiny.png       1000w
+            "
+            loading="lazy"
+            sizes="(max-width: 479px) 70vw, (max-width: 767px) 55vw, (max-width: 991px) 54vw, (max-width: 1919px) 45vw, 700px"
+            class="hero-img-1"
+          />
+          <!-- <div class="hero-img-overlay"></div> -->
+        </div>
+      </div>
+    </div>
+    <!-- end content -->
+
+    <!-- sponsor -->
+    <div class="custom-container d-none d-lg-block">
+      <div class="row w-100">
+        <div class="col-logo">
+          <img src="../assets/logo/logo-billboard.svg" alt="billboard" />
+        </div>
+        <div class="col-logo">
+          <img src="../assets/logo/logo-nytimes.svg" alt="nytime" />
+        </div>
+        <div class="col-logo">
+          <img src="../assets/logo/logo-bloomberg.svg" alt="bloomberg" />
+        </div>
+        <div class="col-logo">
+          <img src="../assets/logo/logo-washpost.svg" alt="washpost" />
+        </div>
+        <div class="col-logo">
+          <img src="../assets/logo/logo-espn.svg" alt="espn" />
+        </div>
+      </div>
+    </div>
+    <!-- end sponsor -->
+
+    <!-- carousel -->
+    <div class="custom-container pb-5">
+      <div class="carousel mt-5">
+        <div
+          class="card card-carousel"
+          v-for="(rows, index) of users"
+          :key="index"
+        >
+          <div
+            class="img-carousel"
+            v-bind:style="{ 'background-image':  `url(../assets/image/${rows.img})` }"
+          ></div>
+          <div class="card-body">
+            <h5 class="card-title-carousel">{{rows.about}}</h5>
+            <p class="card-text">{{rows.text}}</p>
+            <div class="link-carousel">
+              <a href="#" class="text-link-carousel">Show notes ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 links-card text-center">
+        <div class="col-md-4 p-1">
+          <div class="card links-card-1">
+            <div class="card-body">
+              <div class="icon-wrp">
+                <img
+                  src="../assets/logo/popular-white.svg"
+                  alt="popular"
+                  class="tags-icon"
+                />
+              </div>
+              <h6 class="card-subtitle mb-2 text-uppercase fw-bold">
+                trending now
+              </h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-1">
+          <div class="card links-card-1">
+            <div class="card-body">
+              <div class="icon-wrp">
+                <img
+                  src="../assets/logo/latest-posts-white.svg"
+                  alt="popular"
+                  class="tags-icon"
+                />
+              </div>
+              <h6 class="card-subtitle mb-2 text-uppercase fw-bold">
+                new releases
+              </h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-1">
+          <div class="card links-card-1">
+            <div class="card-body">
+              <div class="icon-wrp">
+                <img
+                  src="../assets/logo/topics-and-tags-white.svg"
+                  alt="popular"
+                  class="tags-icon"
+                />
+              </div>
+              <h6 class="card-subtitle mb-2 text-uppercase fw-bold">
+                the archives
+              </h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end carousel -->
+
+    <!-- card promo -->
+    <div class="container">
+      <div class="row mt-5 links-card text-center">
+        <div
+          class="col-md-6 mb-3 mb-lg-0"
+          v-for="(row, index) of contents"
+          :key="index"
+        >
+          <div class="card card-bt p-5" style="width: 100%">
+            <div class="card-body">
+              <h5 class="text-gold">{{row.title}}</h5>
+              <h4 class="card-subtitle mb-2 text-white">{{row.name}}</h4>
+              <p class="card-text text-white" style="font-size: 18px">
+                {{row.desc}}
+              </p>
+              <button
+                class="btn rounded-pill fw-bold mt-2"
+                style="background-color: white"
+              >
+                {{row.btnName}}
+              </button>
+              <div class="row mt-5">
+                <div class="col-4" v-for="(img, idx) of row.images" :key="idx">
+                  <img
+                    class="p-1"
+                    v-bind:src="'../assets/image/'+ img"
+                    v-bind:alt="'img'"
+                    style="width: 100%"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end card promo -->
+
+    <!-- weekly summary -->
+    <div class="container mt-5 pb-5">
+      <div class="row text-center">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <h3 class="text-uppercase text-white">get the weekly summary</h3>
+          <h6 class="text-white">
+            Join 7,500+ including Fortune 500 CEOs, championship coaches, and
+            bestselling authors who get my free weekly summary.
+          </h6>
+          <div class="input-group mt-5">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your email..."
+              aria-label="Enter your email..."
+              aria-describedby="basic-addon2"
+              style="background-color: black; color: white"
+            />
+            <button
+              class="input-group-text btn"
+              id="basic-addon2"
+              style="background-color: white; color: black"
+            >
+              Try it
+            </button>
+          </div>
+          <p class="text-muted mt-3">
+            By subscribing, you agree to our
+            <a href="#privacy">privacy policy</a>.
+          </p>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+    <!-- end weekly summary -->
+
+    <!-- footer -->
+    <div class="custom-container">
+      <div class="row text-white pb-5 pt-5 text-center text-lg-start">
+        <div class="col-md-4">
+          <h5>
+            Daniel Scrivner is an entreprenuer and investor focused on building
+            enduring companies and breakthrough products.
+          </h5>
+          <a href="#" class="text-link-carousel text-muted"
+            ><h6>See what he’s working on now ></h6>
+          </a>
+          <img
+            src="../assets/logo/denis.png"
+            alt="denis"
+            class="mt-5"
+            width="200"
+          />
+        </div>
+        <div
+          class="col-md-2 mt-5 mt-lg-0"
+          v-for="(row, index) of footerMenu"
+          :key="index"
+        >
+          <div>
+            <h5 class="mb-4">{{row.name}}</h5>
+            <a
+              href="#"
+              class="footer-txt-link-1"
+              v-for="(menu, idx) of row.menu"
+              :key="idx"
+              >{{menu}}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="custom-container">
+      <div class="row justify-content-between text-white text-muted pb-3">
+        <div class="col-12 col-lg-4 text-center text-lg-start">
+          Copyright © 2020 Daniel Scrivner. All rights reserved.
+        </div>
+        <div class="col-12 col-lg-4 text-center text-lg-end">
+          <a href="#" class="footer-base-link">Privacy & Terms</a>
+          <a href="#" class="footer-base-link">Disclosures</a>
+          <a href="#" class="footer-base-link">Sitemap</a>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+
+    <!-- Modal Search -->
+    <div
+      class="modal fade"
+      id="searchModal"
+      tabindex="-1"
+      aria-labelledby="searchModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content" style="background-color: #171717">
+          <div class="modal-body text-center text-white p-5">
+            <p class="fw-bold" style="font-size: 18px">
+              Quickly find episodes, articles, and pages across the website.
+            </p>
+            <form>
+              <div class="row">
+                <div class="col-12">
+                  <input
+                    class="form-control me-2 text-white"
+                    type="search"
+                    placeholder="Search..."
+                    aria-label="Search"
+                    style="background-color: #0d0d0d"
+                  />
+                </div>
+                <div class="col-12">
+                  <button
+                    class="btn mt-2 text-white"
+                    style="background-color: #212121; width: 50%"
+                    type="submit"
+                  >
+                    Search
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <div class="icon-wrp-2">
+              <img
+                src="../assets/logo/popular-white.svg"
+                alt="popular"
+                class="tags-icon"
+                style="background-color: #212121"
+              />
+            </div>
+            <div class="icon-wrp-2">
+              <img
+                src="../assets/logo/latest-posts-white.svg"
+                alt="popular"
+                class="tags-icon"
+                style="background-color: #212121"
+              />
+            </div>
+            <div class="icon-wrp-2">
+              <img
+                src="../assets/logo/topics-and-tags-white.svg"
+                alt="popular"
+                class="tags-icon"
+                style="background-color: #212121"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Modal Search -->
+
+    <!-- Modal Subsribe -->
+    <div
+      class="modal fade"
+      id="subscribeModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="subscribeModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content" style="background-color: #171717">
+          <div class="modal-body text-center text-white p-5">
+            <p class="fw-bold" style="font-size: 18px">
+              Join 5k+ subscribers and receive exclusive tools, tips, and
+              resources, sent directly from Daniel Scrivner.
+            </p>
+            <form>
+              <div class="row">
+                <div class="col-12">
+                  <input
+                    class="form-control me-2 text-white"
+                    type="email"
+                    placeholder="Enter your email..."
+                    aria-label="email"
+                    style="background-color: #0d0d0d"
+                  />
+                </div>
+                <div class="col-12">
+                  <button
+                    class="btn mt-2 text-white"
+                    style="background-color: #212121; width: 50%"
+                    type="submit"
+                  >
+                    Subscribe Now
+                  </button>
+                </div>
+              </div>
+            </form>
+            <p class="text-muted pt-5">
+              By subscribing, you agree to our
+              <a href="#"> privacy policy </a> and will added to Daniel’s free
+              email newsletter.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal Subsribe -->
+  </div>
+
+  <script src="https://unpkg.com/vue@3"></script>
+
+  <!-- Slick JS -->
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="./index.js"></script>
+</body>
